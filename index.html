@@ -1,7 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propagación y Olas Pandémicas del COVID</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3-geo.v2.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'aaaaaa.</p>
+    <div class="header">
+        <h1>Propagación y Olas Pandémicas del COVID</h1>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <div>
+                <label>Seleccionar Variables:</label>
+                <div id="variable-tags"></div>
+                <button id="reset-button">Reestablecer</button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="columns">
+                <div class="column" id="column1"></div>
+                <div class="column" id="column2"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
